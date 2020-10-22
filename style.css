@@ -1,0 +1,103 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	
+	
+}
+.form-box{
+	width: 380px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #1e1e1f;
+	opacity: 0.9;
+	color: white;
+}
+.form-box:hover{
+	opacity: 0.96;
+}
+.form-box h1{
+	color: yellow;
+	font-size: 60px;  
+	text-align: center;
+	padding: 8px 0px;
+	margin-bottom: 50px; 
+	font-family: 'Sansita Swashed', cursive;
+	text-decoration: underline yellow;
+	text-shadow: 2px 2px #eda232;
+
+}
+
+
+.textbox{
+	width: 100%;
+	overflow: hidden;
+	font-size: 50px;
+	text-align: center;
+}
+
+.textbox i{
+	width: 26px;
+	font-size: 25px;
+	text-align: center;
+}
+.textbox input{
+	border: none;
+	outline: none;
+	background:none;
+	color: white;
+	font-size: 20px;
+	margin: 0 10px;
+}
+.btn{
+	width: 50%;
+	padding: 10px;
+	margin:12px 25% 0 25%;   
+    outline: none;
+    background:#30e345 ;
+    cursor: pointer;
+    font-size: 25px;
+}
+.btn:hover{
+	background: #3c8f46;
+	color: white;
+	opacity: 1;
+}
+.links{
+	text-align: center;
+	margin: 10px;
+	
+}
+.links a{
+	color: white;
+	text-decoration: none;
+}
+.block{
+	width: 70%;
+	float: right;
+	background: white;
+	color: black;
+	padding: 5px;
+	font-size: 12px;
+	display: none;
+}
+.username input:hover + .block{
+	display: block;
+}
+.email input:hover + .block{
+	display: block;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
